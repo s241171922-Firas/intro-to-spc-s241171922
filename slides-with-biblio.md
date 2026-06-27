@@ -105,7 +105,6 @@ The work done $W$ is positive when the system expands against an external pressu
 ::: {.column width="50%"}
 <video data-src="media/videos/sample.mp4" data-autoplay loop muted width="100%"></video>
 :::
-
 ::::
 
 ---
@@ -269,6 +268,68 @@ Cpk for Machine 3: 0.942
 :::: {.columns}
 ::: {.column width="100%"}
 Conclusion for Machine 3: The process is NOT capable (Cpk = 0.942 < 1.33).
+:::
+::::
+
+---
+
+#### Slide 13: T-Test distribution curve chart showing t-statistic and critical region for Machine 1 vs Machine 2 (P=100, T=303)
+
+:::: {.columns}
+::: {.column width="100%"}
+![](media/pics/machine1_machine2_ttest_cond1.png)
+:::
+::::
+
+---
+
+#### Slide 14: Calculate and display the p-value and t-statistic for the t-test Machine 1 vs Machine 2 (P=100, T=303)
+
+:::: {.columns}
+::: {.column width="100%"}
+T-statistic (Condition 1): -8.551
+P-value (Condition 1): 0.0000
+:::
+::::
+
+---
+
+#### Slide 15: Text evaluation: Is there a true difference at (P=100, T=303)? (Output: Yes/No based on p-value)
+
+:::: {.columns}
+::: {.column width="100%"}
+Yes
+:::
+::::
+
+---
+
+#### Slide 16: T-Test distribution curve chart showing t-statistic and critical region for Machine 1 vs Machine 2 (P=300, T=373)
+
+:::: {.columns}
+::: {.column width="100%"}
+![](media/pics/machine1_machine2_ttest_cond2.png)
+:::
+::::
+
+---
+
+#### Slide 17: Calculate and display the p-value and t-statistic for the t-test Machine 1 vs Machine 2 (P=300, T=373)
+
+:::: {.columns}
+::: {.column width="100%"}
+T-statistic (Condition 2): -1.253
+P-value (Condition 2): 0.2118
+:::
+::::
+
+---
+
+#### Slide 18: Text evaluation: Is there a true difference at (P=300, T=373)? (Output: Yes/No based on p-value)
+
+:::: {.columns}
+::: {.column width="100%"}
+No
 :::
 ::::
 
