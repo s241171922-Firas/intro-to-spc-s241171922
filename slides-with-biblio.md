@@ -151,5 +151,22 @@ This histogram visualizes the distribution of 'Math' scores from the `bigclass` 
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="100%"}
+### Overall Conclusion on Machine Capabilities
+
+Based on the Cpk analysis (with USL=105.0, LSL=95.0, Pressure=200, Temperature=338):
+
+*   **Machine 1:** The process is **NOT capable** (Cpk = 1.185 < 1.33). While close to the acceptable limit, it doesn't meet the standard for capability, suggesting potential for improvement.
+*   **Machine 2:** The process is **NOT capable** (Cpk = 0.272 < 1.33). This machine shows a significantly lower Cpk, indicating a process that is far from capable and requires substantial intervention.
+*   **Machine 3:** The process is **NOT capable** (Cpk = 0.942 < 1.33). Similar to Machine 1, this process does not meet the capability standard and needs improvement efforts.
+
+In summary, none of the machines are currently capable under the specified conditions. Further investigation into the causes of variation and mean shifts is necessary to improve process capability.
+
+:::
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
