@@ -350,6 +350,68 @@ In summary, none of the machines are currently capable under the specified condi
 :::
 ::::
 
+
+---
+
+#### Slide 19: ANOVA Table for Pressure (P) and Significance for Machine 1 Resistance
+
+:::: {.columns}
+::: {.column width="100%"}
+##### ANOVA Table for Pressure
+
+| Source    | Sum Sq   | Df | F-value  | Pr(>F)   |
+|:----------|:---------|:---|:---------|:---------|
+| Pressure  | 1272.70 | 2 | 159.79 | 0.0000 |
+
+
+**Is this factor, P significant for Machine 1 Resistance?** Yes
+:::
+::::
+
+---
+
+#### Slide 20: ANOVA Table for Temperature (T) and Significance for Machine 1 Resistance
+
+:::: {.columns}
+::: {.column width="100%"}
+##### ANOVA Table for Temperature
+
+| Source      | Sum Sq   | Df | F-value  | Pr(>F)   |
+|:------------|:---------|:---|:---------|:---------|
+| Temperature | 58.41 | 2 | 7.33 | 0.0008 |
+
+
+**Is this factor, T significant for Machine 1 Resistance?** Yes
+:::
+::::
+
+---
+
+#### Slide 21: ANOVA Table for Pressure*Temperature (P*T) Interaction and Significance for Machine 1 Resistance
+
+:::: {.columns}
+::: {.column width="100%"}
+##### ANOVA Table for Pressure*Temperature Interaction
+
+| Source               | Sum Sq   | Df | F-value  | Pr(>F)   |
+|:---------------------|:---------|:---|:---------|:---------|
+| Pressure:Temperature | 2613.69 | 4 | 164.08 | 0.0000 |
+
+
+**Is this factor, P*T significant for Machine 1 Resistance?** Yes
+:::
+::::
+
+---
+
+#### Slide 22: Interaction Plot for Machine 1 Resistance
+
+:::: {.columns}
+::: {.column width="100%"}
+![](media/pics/machine1_anova_interaction_plot.png)
+:::
+::::
+
 ---
 # Bibliography
 <div id="refs"></div>
