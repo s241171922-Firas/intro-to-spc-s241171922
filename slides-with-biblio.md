@@ -1,3 +1,4 @@
+
 ---
 title-slide: false
 bibliography: references.bib
@@ -153,15 +154,135 @@ This histogram visualizes the distribution of 'Math' scores from the `bigclass` 
 
 ---
 
+#### Slide 1: Control chart for Machine 1 (Pressure = 200kPa, Temp = 338K)
+
+:::: {.columns}
+::: {.column width="100%"}
+![](media/pics/machine1_control_chart.png)
+:::
+::::
+
+---
+
+#### Slide 2: Process capability chart for Machine 1 (Pressure = 200kPa, Temp = 338K)
+
+:::: {.columns}
+::: {.column width="100%"}
+![](media/pics/machine1_process_capability_chart.png)
+:::
+::::
+
+---
+
+#### Slide 3: Calculate and display the Cpk for Machine 1 (Pressure = 200kPa, Temp = 338K)
+
+:::: {.columns}
+::: {.column width="100%"}
+Cpk for Machine 1: 1.185
+:::
+::::
+
+---
+
+#### Slide 4: Text evaluation: Is Machine 1 capable under these conditions?
+
+:::: {.columns}
+::: {.column width="100%"}
+Conclusion for Machine 1: The process is NOT capable (Cpk = 1.185 < 1.33).
+:::
+::::
+
+---
+
+#### Slide 5: Control chart for Machine 2 (Pressure = 200kPa, Temp = 338K)
+
+:::: {.columns}
+::: {.column width="100%"}
+![](media/pics/machine2_control_chart.png)
+:::
+::::
+
+---
+
+#### Slide 6: Process capability chart for Machine 2 (Pressure = 200kPa, Temp = 338K)
+
+:::: {.columns}
+::: {.column width="100%"}
+![](media/pics/machine2_process_capability_chart.png)
+:::
+::::
+
+---
+
+#### Slide 7: Calculate and display the Cpk for Machine 2 (Pressure = 200kPa, Temp = 338K)
+
+:::: {.columns}
+::: {.column width="100%"}
+Cpk for Machine 2: 0.272
+:::
+::::
+
+---
+
+#### Slide 8: Text evaluation: Is Machine 2 capable under these conditions?
+
+:::: {.columns}
+::: {.column width="100%"}
+Conclusion for Machine 2: The process is NOT capable (Cpk = 0.272 < 1.33).
+:::
+::::
+
+---
+
+#### Slide 9: Control chart for Machine 3 (Pressure = 200kPa, Temp = 338K)
+
+:::: {.columns}
+::: {.column width="100%"}
+![](media/pics/machine3_control_chart.png)
+:::
+::::
+
+---
+
+#### Slide 10: Process capability chart for Machine 3 (Pressure = 200kPa, Temp = 338K)
+
+:::: {.columns}
+::: {.column width="100%"}
+![](media/pics/machine3_process_capability_chart.png)
+:::
+::::
+
+---
+
+#### Slide 11: Calculate and display the Cpk for Machine 3 (Pressure = 200kPa, Temp = 338K)
+
+:::: {.columns}
+::: {.column width="100%"}
+Cpk for Machine 3: 0.942
+:::
+::::
+
+---
+
+#### Slide 12: Text evaluation: Is Machine 3 capable under these conditions?
+
+:::: {.columns}
+::: {.column width="100%"}
+Conclusion for Machine 3: The process is NOT capable (Cpk = 0.942 < 1.33).
+:::
+::::
+
+---
+
 :::: {.columns}
 ::: {.column width="100%"}
 ### Overall Conclusion on Machine Capabilities
 
 Based on the Cpk analysis (with USL=105.0, LSL=95.0, Pressure=200, Temperature=338):
 
-*   **Machine 1:** The process is **NOT capable** (Cpk = 1.185 < 1.33). While close to the acceptable limit, it doesn't meet the standard for capability, suggesting potential for improvement.
-*   **Machine 2:** The process is **NOT capable** (Cpk = 0.272 < 1.33). This machine shows a significantly lower Cpk, indicating a process that is far from capable and requires substantial intervention.
-*   **Machine 3:** The process is **NOT capable** (Cpk = 0.942 < 1.33). Similar to Machine 1, this process does not meet the capability standard and needs improvement efforts.
+*   **Machine 1:** The process is NOT capable (Cpk = 1.185 < 1.33). While close to the acceptable limit, it doesn't meet the standard for capability, suggesting potential for improvement.
+*   **Machine 2:** The process is NOT capable (Cpk = 0.272 < 1.33). This machine shows a significantly lower Cpk, indicating a process that is far from capable and requires substantial intervention.
+*   **Machine 3:** The process is NOT capable (Cpk = 0.942 < 1.33). Similar to Machine 1, this process does not meet the capability standard and needs improvement efforts.
 
 In summary, none of the machines are currently capable under the specified conditions. Further investigation into the causes of variation and mean shifts is necessary to improve process capability.
 
